@@ -1,0 +1,6 @@
+MEMORY
+{
+  FLASH : ORIGIN = 0x00000000, LENGTH = 1M
+  RAM : ORIGIN = 0x20000000, LENGTH = 96K /* SRAM1 */
+  RAM_2 : ORIGIN = 0x10000000, LENGTH = 32K /* SRAM2 Hardware parity check memory */
+}
